@@ -67,7 +67,7 @@ This made traditional tools from emergency systems useless to combat this situat
 A sector with high pedestrian and vehicle traffic, where commercial activities are concentrated, as well as schools (kindergartens, primary, and secondary schools), public transport stops, and a plaza that functions as a neuralgic center. At night, the pedestrian traffic does not decrease, which fosters incidents such as:
 
 - Robbery
-- Piraña robbery
+- Robbery in group
 - Armed robbery
 
 ![Sector III Heatmap](img/sector3heatmap.jpg)
