@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_22710abf698aacf3d32962a2064c1160 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_22710abf698aacf3d32962a2064c1160" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_22710abf698aacf3d32962a2064c1160 = L.map(
+                "map_22710abf698aacf3d32962a2064c1160",
+                {
+                    center: [-31.43258, -64.252421],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4ab26180e68c62eb157ca31930ca3845 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4ab26180e68c62eb157ca31930ca3845.addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+            var rectangle_31086f3521128e90145c857885e1d010 = L.rectangle(
+                [[-31.43258, -64.252421], [-31.451855, -64.249607]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+            var marker_a180965ae38a4fe8cbb3ccc614ed5852 = L.marker(
+                [-31.44762913919809, -64.25166270090557],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_e176b1bd8c2520a040b21a6f9dacd9cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ebf605f66ad751b904b585480d5bc9e = $(`<div id="html_7ebf605f66ad751b904b585480d5bc9e" style="width: 100.0%; height: 100.0%;">Factory: fabrica 1<br>robbery: 7<br>theft: 8<br>vandalism: 3<br>date: 06/01/2014</div>`)[0];
+                popup_e176b1bd8c2520a040b21a6f9dacd9cb.setContent(html_7ebf605f66ad751b904b585480d5bc9e);
+            
+        
+
+        marker_a180965ae38a4fe8cbb3ccc614ed5852.bindPopup(popup_e176b1bd8c2520a040b21a6f9dacd9cb)
+        ;
+
+        
+    
+    
+            var marker_4150935533cca17ea483ecb46b84b61c = L.marker(
+                [-31.45184473752318, -64.25014110557446],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_1ffbcbc77c583cdf5acc862e10edc269 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_954a843a42b5b6b9e87a5c0dfa82011d = $(`<div id="html_954a843a42b5b6b9e87a5c0dfa82011d" style="width: 100.0%; height: 100.0%;">Factory: fabrica 2<br>robbery: 8<br>theft: 2<br>vandalism: 2<br>date: 29/07/2013</div>`)[0];
+                popup_1ffbcbc77c583cdf5acc862e10edc269.setContent(html_954a843a42b5b6b9e87a5c0dfa82011d);
+            
+        
+
+        marker_4150935533cca17ea483ecb46b84b61c.bindPopup(popup_1ffbcbc77c583cdf5acc862e10edc269)
+        ;
+
+        
+    
+    
+            var marker_828d7a3d91984971292f643d00e170dc = L.marker(
+                [-31.444057665754304, -64.25023758213622],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_0dcc1c2e7c198a06920ede46ebe47411 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c067bb08645da9803a24d3106a6fe3f6 = $(`<div id="html_c067bb08645da9803a24d3106a6fe3f6" style="width: 100.0%; height: 100.0%;">Factory: fabrica 3<br>robbery: 9<br>theft: 2<br>vandalism: 2<br>date: 01/08/2021</div>`)[0];
+                popup_0dcc1c2e7c198a06920ede46ebe47411.setContent(html_c067bb08645da9803a24d3106a6fe3f6);
+            
+        
+
+        marker_828d7a3d91984971292f643d00e170dc.bindPopup(popup_0dcc1c2e7c198a06920ede46ebe47411)
+        ;
+
+        
+    
+    
+            var marker_61a684b60476d439bafacb79fa49e4ed = L.marker(
+                [-31.435912351362802, -64.25015497861403],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_f5680fcd8a9215a7d032aeacd2dc533a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2571eae7b7e1fdd9962aa20696ec4efc = $(`<div id="html_2571eae7b7e1fdd9962aa20696ec4efc" style="width: 100.0%; height: 100.0%;">Factory: fabrica 4<br>robbery: 2<br>theft: 2<br>vandalism: 2<br>date: 11/07/2014</div>`)[0];
+                popup_f5680fcd8a9215a7d032aeacd2dc533a.setContent(html_2571eae7b7e1fdd9962aa20696ec4efc);
+            
+        
+
+        marker_61a684b60476d439bafacb79fa49e4ed.bindPopup(popup_f5680fcd8a9215a7d032aeacd2dc533a)
+        ;
+
+        
+    
+    
+            var marker_35ed6c3d6d43a7b87ea2f97508535b0b = L.marker(
+                [-31.442156352007483, -64.25179242785002],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_4d21b65088599d0ff155b26231ae26e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9522763977e7d894a6b272e846c80023 = $(`<div id="html_9522763977e7d894a6b272e846c80023" style="width: 100.0%; height: 100.0%;">Factory: fabrica 5<br>robbery: 5<br>theft: 5<br>vandalism: 2<br>date: 17/05/2010</div>`)[0];
+                popup_4d21b65088599d0ff155b26231ae26e3.setContent(html_9522763977e7d894a6b272e846c80023);
+            
+        
+
+        marker_35ed6c3d6d43a7b87ea2f97508535b0b.bindPopup(popup_4d21b65088599d0ff155b26231ae26e3)
+        ;
+
+        
+    
+    
+            var marker_db862cc33e164b37ea44ed2de6d18620 = L.marker(
+                [-31.437733177565487, -64.25106659072155],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_bf2f74426dec82d06ddc21e6ccaab36b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3375aece7190e6929a9c69f1cc81c7c = $(`<div id="html_a3375aece7190e6929a9c69f1cc81c7c" style="width: 100.0%; height: 100.0%;">Factory: fabrica 6<br>robbery: 7<br>theft: 5<br>vandalism: 7<br>date: 22/05/2014</div>`)[0];
+                popup_bf2f74426dec82d06ddc21e6ccaab36b.setContent(html_a3375aece7190e6929a9c69f1cc81c7c);
+            
+        
+
+        marker_db862cc33e164b37ea44ed2de6d18620.bindPopup(popup_bf2f74426dec82d06ddc21e6ccaab36b)
+        ;
+
+        
+    
+    
+            var marker_63dbb32c91b963067a31b3886fa5e904 = L.marker(
+                [-31.451611950816936, -64.25202434083415],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_4fb97dee533ec61ed690cc08e35d6f62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1da77153cd51282362a00947718f948b = $(`<div id="html_1da77153cd51282362a00947718f948b" style="width: 100.0%; height: 100.0%;">Factory: fabrica 7<br>robbery: 2<br>theft: 10<br>vandalism: 7<br>date: 21/07/2014</div>`)[0];
+                popup_4fb97dee533ec61ed690cc08e35d6f62.setContent(html_1da77153cd51282362a00947718f948b);
+            
+        
+
+        marker_63dbb32c91b963067a31b3886fa5e904.bindPopup(popup_4fb97dee533ec61ed690cc08e35d6f62)
+        ;
+
+        
+    
+    
+            var marker_71807710123e2c2e9bd064ba76e65ed3 = L.marker(
+                [-31.43958191156161, -64.25141721846647],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_865c1597f7bec0e78b1826434a934812 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fe704befb7acfd6ebfe0a8beb61b68b = $(`<div id="html_5fe704befb7acfd6ebfe0a8beb61b68b" style="width: 100.0%; height: 100.0%;">Factory: fabrica 8<br>robbery: 5<br>theft: 10<br>vandalism: 8<br>date: 11/07/2011</div>`)[0];
+                popup_865c1597f7bec0e78b1826434a934812.setContent(html_5fe704befb7acfd6ebfe0a8beb61b68b);
+            
+        
+
+        marker_71807710123e2c2e9bd064ba76e65ed3.bindPopup(popup_865c1597f7bec0e78b1826434a934812)
+        ;
+
+        
+    
+    
+            var marker_fef6e3255a37e735635b92f8fba562bb = L.marker(
+                [-31.440530190851117, -64.24971707468097],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_9da3361e75908db09cbc9d0ca551ab1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2957496314828cdf274149326c4f320 = $(`<div id="html_a2957496314828cdf274149326c4f320" style="width: 100.0%; height: 100.0%;">Factory: fabrica 9<br>robbery: 8<br>theft: 8<br>vandalism: 3<br>date: 28/02/2018</div>`)[0];
+                popup_9da3361e75908db09cbc9d0ca551ab1f.setContent(html_a2957496314828cdf274149326c4f320);
+            
+        
+
+        marker_fef6e3255a37e735635b92f8fba562bb.bindPopup(popup_9da3361e75908db09cbc9d0ca551ab1f)
+        ;
+
+        
+    
+    
+            var marker_181298aa2d87e0306d1b7696ecd24302 = L.marker(
+                [-31.445690304703856, -64.24995695510512],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_9b130af89e738bd120cc9aaa1b97976a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aca8612fc7d01ff2eb51b18f8c579f4a = $(`<div id="html_aca8612fc7d01ff2eb51b18f8c579f4a" style="width: 100.0%; height: 100.0%;">Factory: fabrica 10<br>robbery: 10<br>theft: 9<br>vandalism: 10<br>date: 08/07/2021</div>`)[0];
+                popup_9b130af89e738bd120cc9aaa1b97976a.setContent(html_aca8612fc7d01ff2eb51b18f8c579f4a);
+            
+        
+
+        marker_181298aa2d87e0306d1b7696ecd24302.bindPopup(popup_9b130af89e738bd120cc9aaa1b97976a)
+        ;
+
+        
+    
+    
+            var marker_6ac18824a4dccc79a83b25c2e1f92766 = L.marker(
+                [-31.448248848848383, -64.25176229570202],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_2b86e93d0cc19bda87e869a103b3b261 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19c5faa83c3779eca943e058885e3049 = $(`<div id="html_19c5faa83c3779eca943e058885e3049" style="width: 100.0%; height: 100.0%;">Factory: fabrica 11<br>robbery: 8<br>theft: 5<br>vandalism: 10<br>date: 25/12/2017</div>`)[0];
+                popup_2b86e93d0cc19bda87e869a103b3b261.setContent(html_19c5faa83c3779eca943e058885e3049);
+            
+        
+
+        marker_6ac18824a4dccc79a83b25c2e1f92766.bindPopup(popup_2b86e93d0cc19bda87e869a103b3b261)
+        ;
+
+        
+    
+    
+            var marker_f8a36e7d105d57a9bc1a464bda41a3b7 = L.marker(
+                [-31.45031213821132, -64.25175621132799],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_ffe4db20d81c317b43e341525b4aa2f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf23fc713170c3f27a220ddcde816ebb = $(`<div id="html_cf23fc713170c3f27a220ddcde816ebb" style="width: 100.0%; height: 100.0%;">Factory: fabrica 12<br>robbery: 9<br>theft: 4<br>vandalism: 7<br>date: 06/05/2011</div>`)[0];
+                popup_ffe4db20d81c317b43e341525b4aa2f1.setContent(html_cf23fc713170c3f27a220ddcde816ebb);
+            
+        
+
+        marker_f8a36e7d105d57a9bc1a464bda41a3b7.bindPopup(popup_ffe4db20d81c317b43e341525b4aa2f1)
+        ;
+
+        
+    
+    
+            var marker_20f9e7e3ee8d342134494e5de00d3eee = L.marker(
+                [-31.445761368754866, -64.25066918706288],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_2f19a95a0fa2ee55e2180536d5f5a850 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76b67f24d89f94aba4a7e4285d892068 = $(`<div id="html_76b67f24d89f94aba4a7e4285d892068" style="width: 100.0%; height: 100.0%;">Factory: fabrica 13<br>robbery: 3<br>theft: 6<br>vandalism: 7<br>date: 31/10/2021</div>`)[0];
+                popup_2f19a95a0fa2ee55e2180536d5f5a850.setContent(html_76b67f24d89f94aba4a7e4285d892068);
+            
+        
+
+        marker_20f9e7e3ee8d342134494e5de00d3eee.bindPopup(popup_2f19a95a0fa2ee55e2180536d5f5a850)
+        ;
+
+        
+    
+    
+            var marker_329c67c4f3e2d6078dd31c8d78b856f5 = L.marker(
+                [-31.432825511489952, -64.25067542401392],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_048bdae0aefdbc00f5c5a67c7e2d2eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30b7d3a41f1a36e9d1d5f5523e2604e2 = $(`<div id="html_30b7d3a41f1a36e9d1d5f5523e2604e2" style="width: 100.0%; height: 100.0%;">Factory: fabrica 14<br>robbery: 9<br>theft: 9<br>vandalism: 7<br>date: 21/11/2010</div>`)[0];
+                popup_048bdae0aefdbc00f5c5a67c7e2d2eb4.setContent(html_30b7d3a41f1a36e9d1d5f5523e2604e2);
+            
+        
+
+        marker_329c67c4f3e2d6078dd31c8d78b856f5.bindPopup(popup_048bdae0aefdbc00f5c5a67c7e2d2eb4)
+        ;
+
+        
+    
+    
+            var marker_be2b2d3bab1959884c6af2c6693482ad = L.marker(
+                [-31.433342992282157, -64.25120286555475],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_df26ec06c584549fa83af774193698c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b30893e7e2e71d66e4f17c6291c96913 = $(`<div id="html_b30893e7e2e71d66e4f17c6291c96913" style="width: 100.0%; height: 100.0%;">Factory: fabrica 15<br>robbery: 8<br>theft: 4<br>vandalism: 6<br>date: 05/05/2013</div>`)[0];
+                popup_df26ec06c584549fa83af774193698c5.setContent(html_b30893e7e2e71d66e4f17c6291c96913);
+            
+        
+
+        marker_be2b2d3bab1959884c6af2c6693482ad.bindPopup(popup_df26ec06c584549fa83af774193698c5)
+        ;
+
+        
+    
+    
+            var marker_c05fe82230b8443e1731b6a70a527eb1 = L.marker(
+                [-31.443968955685257, -64.25046285458114],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_603887f9e525817e4deb8544b667ad44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4653cb90e5b4ce022ab7efb568f450f4 = $(`<div id="html_4653cb90e5b4ce022ab7efb568f450f4" style="width: 100.0%; height: 100.0%;">Factory: fabrica 16<br>robbery: 6<br>theft: 6<br>vandalism: 4<br>date: 15/11/2021</div>`)[0];
+                popup_603887f9e525817e4deb8544b667ad44.setContent(html_4653cb90e5b4ce022ab7efb568f450f4);
+            
+        
+
+        marker_c05fe82230b8443e1731b6a70a527eb1.bindPopup(popup_603887f9e525817e4deb8544b667ad44)
+        ;
+
+        
+    
+    
+            var marker_80ad2863f3bdb232dff4320c5dc454d6 = L.marker(
+                [-31.446725812587392, -64.25095326731801],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_362d9a23c99c3bc784c363d8aad9f8ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71e181191050ed89b6d8feddccc4b3bc = $(`<div id="html_71e181191050ed89b6d8feddccc4b3bc" style="width: 100.0%; height: 100.0%;">Factory: fabrica 17<br>robbery: 8<br>theft: 7<br>vandalism: 8<br>date: 22/02/2015</div>`)[0];
+                popup_362d9a23c99c3bc784c363d8aad9f8ae.setContent(html_71e181191050ed89b6d8feddccc4b3bc);
+            
+        
+
+        marker_80ad2863f3bdb232dff4320c5dc454d6.bindPopup(popup_362d9a23c99c3bc784c363d8aad9f8ae)
+        ;
+
+        
+    
+    
+            var marker_71065a11d744309447ac28f05c0d3eac = L.marker(
+                [-31.442183486459815, -64.24989419310805],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_f81478fc434ee2e11cd049c5760c6267 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c56f2c4f52dcfa4c1d84a84342266dc0 = $(`<div id="html_c56f2c4f52dcfa4c1d84a84342266dc0" style="width: 100.0%; height: 100.0%;">Factory: fabrica 18<br>robbery: 10<br>theft: 8<br>vandalism: 5<br>date: 02/01/2018</div>`)[0];
+                popup_f81478fc434ee2e11cd049c5760c6267.setContent(html_c56f2c4f52dcfa4c1d84a84342266dc0);
+            
+        
+
+        marker_71065a11d744309447ac28f05c0d3eac.bindPopup(popup_f81478fc434ee2e11cd049c5760c6267)
+        ;
+
+        
+    
+    
+            var marker_0f8986876016de6ee8d21bf61b7dbfcc = L.marker(
+                [-31.437393164428002, -64.2522936679861],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_9dbd08e89c9db638c9f2efaa995dd9df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_167b85f589976efb24ea7115911cefd3 = $(`<div id="html_167b85f589976efb24ea7115911cefd3" style="width: 100.0%; height: 100.0%;">Factory: fabrica 19<br>robbery: 2<br>theft: 10<br>vandalism: 2<br>date: 16/03/2016</div>`)[0];
+                popup_9dbd08e89c9db638c9f2efaa995dd9df.setContent(html_167b85f589976efb24ea7115911cefd3);
+            
+        
+
+        marker_0f8986876016de6ee8d21bf61b7dbfcc.bindPopup(popup_9dbd08e89c9db638c9f2efaa995dd9df)
+        ;
+
+        
+    
+    
+            var marker_ee309c4c4866aa5fd1140e919c8b6ed2 = L.marker(
+                [-31.44977122711449, -64.24995697838432],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_00f5937821cbe0d236ed5b39086d19bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecc6082f2dc8e871328fcd0af1724a0b = $(`<div id="html_ecc6082f2dc8e871328fcd0af1724a0b" style="width: 100.0%; height: 100.0%;">Factory: fabrica 20<br>robbery: 7<br>theft: 6<br>vandalism: 1<br>date: 17/02/2013</div>`)[0];
+                popup_00f5937821cbe0d236ed5b39086d19bb.setContent(html_ecc6082f2dc8e871328fcd0af1724a0b);
+            
+        
+
+        marker_ee309c4c4866aa5fd1140e919c8b6ed2.bindPopup(popup_00f5937821cbe0d236ed5b39086d19bb)
+        ;
+
+        
+    
+    
+            var marker_833d5ff76e54f67b51796760e0a09304 = L.marker(
+                [-31.44664078325186, -64.2524108066753],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_f9b947ede5c810faaa869b5ff44aeded = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2815cf69177de7f93b01ed0e143d8679 = $(`<div id="html_2815cf69177de7f93b01ed0e143d8679" style="width: 100.0%; height: 100.0%;">Factory: fabrica 21<br>robbery: 2<br>theft: 5<br>vandalism: 7<br>date: 20/07/2014</div>`)[0];
+                popup_f9b947ede5c810faaa869b5ff44aeded.setContent(html_2815cf69177de7f93b01ed0e143d8679);
+            
+        
+
+        marker_833d5ff76e54f67b51796760e0a09304.bindPopup(popup_f9b947ede5c810faaa869b5ff44aeded)
+        ;
+
+        
+    
+    
+            var marker_19db3cef9cadd115be6c4ae5c3e9cd77 = L.marker(
+                [-31.443251365350847, -64.25001662776017],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_42ed4dab9b3cee3e4ed1c48ff0a32e9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_024e5d521e782dc1fef2ee23f974f06e = $(`<div id="html_024e5d521e782dc1fef2ee23f974f06e" style="width: 100.0%; height: 100.0%;">Factory: fabrica 22<br>robbery: 8<br>theft: 3<br>vandalism: 9<br>date: 14/09/2018</div>`)[0];
+                popup_42ed4dab9b3cee3e4ed1c48ff0a32e9b.setContent(html_024e5d521e782dc1fef2ee23f974f06e);
+            
+        
+
+        marker_19db3cef9cadd115be6c4ae5c3e9cd77.bindPopup(popup_42ed4dab9b3cee3e4ed1c48ff0a32e9b)
+        ;
+
+        
+    
+    
+            var marker_4a02b9b890a5994ae1937fafc25a91ff = L.marker(
+                [-31.449617416069568, -64.25056725476962],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_2cde77a21b2efb012aab94c5ca56b9be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ef5b11575bc32339fd69e9d8df25fed = $(`<div id="html_2ef5b11575bc32339fd69e9d8df25fed" style="width: 100.0%; height: 100.0%;">Factory: fabrica 23<br>robbery: 7<br>theft: 7<br>vandalism: 4<br>date: 16/10/2011</div>`)[0];
+                popup_2cde77a21b2efb012aab94c5ca56b9be.setContent(html_2ef5b11575bc32339fd69e9d8df25fed);
+            
+        
+
+        marker_4a02b9b890a5994ae1937fafc25a91ff.bindPopup(popup_2cde77a21b2efb012aab94c5ca56b9be)
+        ;
+
+        
+    
+    
+            var marker_ad1d5bac866b06b82401b7c07c9c00f7 = L.marker(
+                [-31.451311618528045, -64.25102012437293],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_d75dbb8c8a3d151f80315b0eb25c8bcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e07c2c7b4de9aadb813fcc57947a1681 = $(`<div id="html_e07c2c7b4de9aadb813fcc57947a1681" style="width: 100.0%; height: 100.0%;">Factory: fabrica 24<br>robbery: 5<br>theft: 3<br>vandalism: 4<br>date: 07/03/2016</div>`)[0];
+                popup_d75dbb8c8a3d151f80315b0eb25c8bcd.setContent(html_e07c2c7b4de9aadb813fcc57947a1681);
+            
+        
+
+        marker_ad1d5bac866b06b82401b7c07c9c00f7.bindPopup(popup_d75dbb8c8a3d151f80315b0eb25c8bcd)
+        ;
+
+        
+    
+    
+            var marker_bda149df111992ec391a2303317fc0df = L.marker(
+                [-31.44547561496531, -64.2508066471025],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_122976a6652dd17d8db129c2a9f7ca59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ba88ae5d235416b241d5650c85a1e87 = $(`<div id="html_9ba88ae5d235416b241d5650c85a1e87" style="width: 100.0%; height: 100.0%;">Factory: fabrica 25<br>robbery: 9<br>theft: 7<br>vandalism: 7<br>date: 15/02/2014</div>`)[0];
+                popup_122976a6652dd17d8db129c2a9f7ca59.setContent(html_9ba88ae5d235416b241d5650c85a1e87);
+            
+        
+
+        marker_bda149df111992ec391a2303317fc0df.bindPopup(popup_122976a6652dd17d8db129c2a9f7ca59)
+        ;
+
+        
+    
+    
+            var marker_5fc23a48b4b2c02de41a58eace5eaee2 = L.marker(
+                [-31.451410159543602, -64.25160515956813],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_8b978991b8964497a32488c4efca1d41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6c1b8cc46fbf26618043803a557fce9 = $(`<div id="html_a6c1b8cc46fbf26618043803a557fce9" style="width: 100.0%; height: 100.0%;">Factory: fabrica 26<br>robbery: 2<br>theft: 2<br>vandalism: 8<br>date: 14/12/2017</div>`)[0];
+                popup_8b978991b8964497a32488c4efca1d41.setContent(html_a6c1b8cc46fbf26618043803a557fce9);
+            
+        
+
+        marker_5fc23a48b4b2c02de41a58eace5eaee2.bindPopup(popup_8b978991b8964497a32488c4efca1d41)
+        ;
+
+        
+    
+    
+            var marker_ef36d5656c7666cd5a5932026e269827 = L.marker(
+                [-31.443348764874003, -64.24994894962059],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_fd7c9fd8d5a08e326029e557905130af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c673e6b13859d586056d914be23c22b7 = $(`<div id="html_c673e6b13859d586056d914be23c22b7" style="width: 100.0%; height: 100.0%;">Factory: fabrica 27<br>robbery: 3<br>theft: 5<br>vandalism: 10<br>date: 08/05/2014</div>`)[0];
+                popup_fd7c9fd8d5a08e326029e557905130af.setContent(html_c673e6b13859d586056d914be23c22b7);
+            
+        
+
+        marker_ef36d5656c7666cd5a5932026e269827.bindPopup(popup_fd7c9fd8d5a08e326029e557905130af)
+        ;
+
+        
+    
+    
+            var marker_50096a143eeffbbf1eed78ed64396945 = L.marker(
+                [-31.441739396081413, -64.24979366201156],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_13f75662eb00d257a6c3b06229f69d49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae9bf3b439139fae431774892c5fff69 = $(`<div id="html_ae9bf3b439139fae431774892c5fff69" style="width: 100.0%; height: 100.0%;">Factory: fabrica 28<br>robbery: 10<br>theft: 1<br>vandalism: 2<br>date: 26/10/2018</div>`)[0];
+                popup_13f75662eb00d257a6c3b06229f69d49.setContent(html_ae9bf3b439139fae431774892c5fff69);
+            
+        
+
+        marker_50096a143eeffbbf1eed78ed64396945.bindPopup(popup_13f75662eb00d257a6c3b06229f69d49)
+        ;
+
+        
+    
+    
+            var marker_cac7d273a57bfe6736d0097c9b57e9ad = L.marker(
+                [-31.43821298656141, -64.25013861411492],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_007a7b33dce1530a903c170036c5b11b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dd89db52cb71d6bee4e832f482fef4a = $(`<div id="html_2dd89db52cb71d6bee4e832f482fef4a" style="width: 100.0%; height: 100.0%;">Factory: fabrica 29<br>robbery: 9<br>theft: 4<br>vandalism: 2<br>date: 07/03/2018</div>`)[0];
+                popup_007a7b33dce1530a903c170036c5b11b.setContent(html_2dd89db52cb71d6bee4e832f482fef4a);
+            
+        
+
+        marker_cac7d273a57bfe6736d0097c9b57e9ad.bindPopup(popup_007a7b33dce1530a903c170036c5b11b)
+        ;
+
+        
+    
+    
+            var marker_50e8c7908bd8843a36abac1144fdf163 = L.marker(
+                [-31.44226350483319, -64.25059197596062],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_b1e1c1483a807e6e888f1f0b576e2206 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d3b65bbafad44f14b4ca9aaca61aadc = $(`<div id="html_4d3b65bbafad44f14b4ca9aaca61aadc" style="width: 100.0%; height: 100.0%;">Factory: fabrica 30<br>robbery: 8<br>theft: 6<br>vandalism: 9<br>date: 26/09/2016</div>`)[0];
+                popup_b1e1c1483a807e6e888f1f0b576e2206.setContent(html_4d3b65bbafad44f14b4ca9aaca61aadc);
+            
+        
+
+        marker_50e8c7908bd8843a36abac1144fdf163.bindPopup(popup_b1e1c1483a807e6e888f1f0b576e2206)
+        ;
+
+        
+    
+    
+            var marker_ddde10ae88d59ca4c48c6c57b3054bc7 = L.marker(
+                [-31.44598411247317, -64.25199756984941],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_995aa9bfa5b1c13cbae6c5a77b94ec8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3c33f606a1ae3e20022d32f6323e878 = $(`<div id="html_f3c33f606a1ae3e20022d32f6323e878" style="width: 100.0%; height: 100.0%;">Factory: fabrica 31<br>robbery: 6<br>theft: 1<br>vandalism: 1<br>date: 24/03/2013</div>`)[0];
+                popup_995aa9bfa5b1c13cbae6c5a77b94ec8f.setContent(html_f3c33f606a1ae3e20022d32f6323e878);
+            
+        
+
+        marker_ddde10ae88d59ca4c48c6c57b3054bc7.bindPopup(popup_995aa9bfa5b1c13cbae6c5a77b94ec8f)
+        ;
+
+        
+    
+    
+            var marker_643340f040205435b1b3922c296807ac = L.marker(
+                [-31.450628221191714, -64.2523121736622],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_5a1d2166e337cf364846400411591dd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3beab1dd70df645b3fc4e7edaab65cb = $(`<div id="html_f3beab1dd70df645b3fc4e7edaab65cb" style="width: 100.0%; height: 100.0%;">Factory: fabrica 32<br>robbery: 9<br>theft: 4<br>vandalism: 3<br>date: 10/11/2018</div>`)[0];
+                popup_5a1d2166e337cf364846400411591dd9.setContent(html_f3beab1dd70df645b3fc4e7edaab65cb);
+            
+        
+
+        marker_643340f040205435b1b3922c296807ac.bindPopup(popup_5a1d2166e337cf364846400411591dd9)
+        ;
+
+        
+    
+    
+            var marker_5bf28e758bab9ebad7023c3c1818923a = L.marker(
+                [-31.433903314685423, -64.24980191971028],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_c804f107f90ca77f0d4c895bc071adc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88d3743d59b77ba00b4d56f660f5aaac = $(`<div id="html_88d3743d59b77ba00b4d56f660f5aaac" style="width: 100.0%; height: 100.0%;">Factory: fabrica 33<br>robbery: 1<br>theft: 2<br>vandalism: 6<br>date: 02/09/2019</div>`)[0];
+                popup_c804f107f90ca77f0d4c895bc071adc3.setContent(html_88d3743d59b77ba00b4d56f660f5aaac);
+            
+        
+
+        marker_5bf28e758bab9ebad7023c3c1818923a.bindPopup(popup_c804f107f90ca77f0d4c895bc071adc3)
+        ;
+
+        
+    
+    
+            var marker_3bec143e4c4de484b3cb958b86fdf300 = L.marker(
+                [-31.444841982725226, -64.2505735650486],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_3e82b99b1a2c2cb02618388a7dc4e4f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee6f938fae57e22925b3abc3d50869c7 = $(`<div id="html_ee6f938fae57e22925b3abc3d50869c7" style="width: 100.0%; height: 100.0%;">Factory: fabrica 34<br>robbery: 10<br>theft: 5<br>vandalism: 1<br>date: 15/09/2017</div>`)[0];
+                popup_3e82b99b1a2c2cb02618388a7dc4e4f4.setContent(html_ee6f938fae57e22925b3abc3d50869c7);
+            
+        
+
+        marker_3bec143e4c4de484b3cb958b86fdf300.bindPopup(popup_3e82b99b1a2c2cb02618388a7dc4e4f4)
+        ;
+
+        
+    
+    
+            var marker_9b7d595f2e8f0e86d2965ff5ac11000c = L.marker(
+                [-31.433246133081326, -64.24998496032974],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_6e7788b8f974739d3733b535b090bc11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4796d82e462e2e0de919eabf2b84c10c = $(`<div id="html_4796d82e462e2e0de919eabf2b84c10c" style="width: 100.0%; height: 100.0%;">Factory: fabrica 35<br>robbery: 6<br>theft: 7<br>vandalism: 2<br>date: 11/11/2013</div>`)[0];
+                popup_6e7788b8f974739d3733b535b090bc11.setContent(html_4796d82e462e2e0de919eabf2b84c10c);
+            
+        
+
+        marker_9b7d595f2e8f0e86d2965ff5ac11000c.bindPopup(popup_6e7788b8f974739d3733b535b090bc11)
+        ;
+
+        
+    
+    
+            var marker_657fb82b7d49ccdedde768e0695055fe = L.marker(
+                [-31.446534159407936, -64.25030269088901],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_62f3f882489152e84f4766add1f0b903 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0bf3c0d45ea36c04154beb4a5b45a64 = $(`<div id="html_d0bf3c0d45ea36c04154beb4a5b45a64" style="width: 100.0%; height: 100.0%;">Factory: fabrica 36<br>robbery: 3<br>theft: 2<br>vandalism: 5<br>date: 12/10/2016</div>`)[0];
+                popup_62f3f882489152e84f4766add1f0b903.setContent(html_d0bf3c0d45ea36c04154beb4a5b45a64);
+            
+        
+
+        marker_657fb82b7d49ccdedde768e0695055fe.bindPopup(popup_62f3f882489152e84f4766add1f0b903)
+        ;
+
+        
+    
+    
+            var marker_90d95b36a68ea6eaaa5f590f414deb01 = L.marker(
+                [-31.441171053770304, -64.25117948097518],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_cb2e14b1d0362e24d44a23fe2a00290b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6fa02fc4982e02e9b964f0bafccbd7b = $(`<div id="html_c6fa02fc4982e02e9b964f0bafccbd7b" style="width: 100.0%; height: 100.0%;">Factory: fabrica 37<br>robbery: 9<br>theft: 2<br>vandalism: 4<br>date: 14/09/2016</div>`)[0];
+                popup_cb2e14b1d0362e24d44a23fe2a00290b.setContent(html_c6fa02fc4982e02e9b964f0bafccbd7b);
+            
+        
+
+        marker_90d95b36a68ea6eaaa5f590f414deb01.bindPopup(popup_cb2e14b1d0362e24d44a23fe2a00290b)
+        ;
+
+        
+    
+    
+            var marker_ef72d68706dbb09d63d07cdc1d82698a = L.marker(
+                [-31.449912454469555, -64.25197917696833],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_37821de7be63b5c4eb6c954e55de0b40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a75d2a78319803c188e66ac563dc77eb = $(`<div id="html_a75d2a78319803c188e66ac563dc77eb" style="width: 100.0%; height: 100.0%;">Factory: fabrica 38<br>robbery: 10<br>theft: 9<br>vandalism: 10<br>date: 01/07/2014</div>`)[0];
+                popup_37821de7be63b5c4eb6c954e55de0b40.setContent(html_a75d2a78319803c188e66ac563dc77eb);
+            
+        
+
+        marker_ef72d68706dbb09d63d07cdc1d82698a.bindPopup(popup_37821de7be63b5c4eb6c954e55de0b40)
+        ;
+
+        
+    
+    
+            var marker_554d8b531bc9904f2f730d4a7d59a2a5 = L.marker(
+                [-31.451249562705783, -64.2521306452095],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_525abaf2d030ca43142fdf6520be4e26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2166a9b8c49f5d55ced23cb4b98b5356 = $(`<div id="html_2166a9b8c49f5d55ced23cb4b98b5356" style="width: 100.0%; height: 100.0%;">Factory: fabrica 39<br>robbery: 10<br>theft: 9<br>vandalism: 2<br>date: 09/10/2015</div>`)[0];
+                popup_525abaf2d030ca43142fdf6520be4e26.setContent(html_2166a9b8c49f5d55ced23cb4b98b5356);
+            
+        
+
+        marker_554d8b531bc9904f2f730d4a7d59a2a5.bindPopup(popup_525abaf2d030ca43142fdf6520be4e26)
+        ;
+
+        
+    
+    
+            var marker_19bdded1f53cd6192fc47c197025f815 = L.marker(
+                [-31.442973598451914, -64.25168102776654],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_77d6b3a8354d916db39715d77b0ce8d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fbd3cb5bcff88a08e239636e6546eb8 = $(`<div id="html_1fbd3cb5bcff88a08e239636e6546eb8" style="width: 100.0%; height: 100.0%;">Factory: fabrica 40<br>robbery: 1<br>theft: 2<br>vandalism: 4<br>date: 20/09/2015</div>`)[0];
+                popup_77d6b3a8354d916db39715d77b0ce8d2.setContent(html_1fbd3cb5bcff88a08e239636e6546eb8);
+            
+        
+
+        marker_19bdded1f53cd6192fc47c197025f815.bindPopup(popup_77d6b3a8354d916db39715d77b0ce8d2)
+        ;
+
+        
+    
+    
+            var marker_2f646e79580dd515948f0d675bec3cf6 = L.marker(
+                [-31.44866241217494, -64.25185231580227],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_fbd6a9c25422c6ec4985f29dec900112 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51c9990c51832bdfefbace8a2b265904 = $(`<div id="html_51c9990c51832bdfefbace8a2b265904" style="width: 100.0%; height: 100.0%;">Factory: fabrica 41<br>robbery: 4<br>theft: 6<br>vandalism: 1<br>date: 02/06/2018</div>`)[0];
+                popup_fbd6a9c25422c6ec4985f29dec900112.setContent(html_51c9990c51832bdfefbace8a2b265904);
+            
+        
+
+        marker_2f646e79580dd515948f0d675bec3cf6.bindPopup(popup_fbd6a9c25422c6ec4985f29dec900112)
+        ;
+
+        
+    
+    
+            var marker_70cb0ec30fd317fc67e59d5e1323a3f6 = L.marker(
+                [-31.4516422838153, -64.25070508553506],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_035014564ba2f3b9f84c445f88f88db4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cf83d8fab7bab2f91a091b11614d925 = $(`<div id="html_3cf83d8fab7bab2f91a091b11614d925" style="width: 100.0%; height: 100.0%;">Factory: fabrica 42<br>robbery: 3<br>theft: 4<br>vandalism: 7<br>date: 30/10/2013</div>`)[0];
+                popup_035014564ba2f3b9f84c445f88f88db4.setContent(html_3cf83d8fab7bab2f91a091b11614d925);
+            
+        
+
+        marker_70cb0ec30fd317fc67e59d5e1323a3f6.bindPopup(popup_035014564ba2f3b9f84c445f88f88db4)
+        ;
+
+        
+    
+    
+            var marker_03bb56316534c57920ba2da81d3cd2e7 = L.marker(
+                [-31.44467728731621, -64.25210608817528],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_85ed9f5bbbba17a6ba5f69b7cd10fac5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3e5cc670763368177b9e9004fc4783a = $(`<div id="html_c3e5cc670763368177b9e9004fc4783a" style="width: 100.0%; height: 100.0%;">Factory: fabrica 43<br>robbery: 8<br>theft: 4<br>vandalism: 3<br>date: 12/05/2013</div>`)[0];
+                popup_85ed9f5bbbba17a6ba5f69b7cd10fac5.setContent(html_c3e5cc670763368177b9e9004fc4783a);
+            
+        
+
+        marker_03bb56316534c57920ba2da81d3cd2e7.bindPopup(popup_85ed9f5bbbba17a6ba5f69b7cd10fac5)
+        ;
+
+        
+    
+    
+            var marker_a468ac964125fd50f9588dc26e56e1e5 = L.marker(
+                [-31.436509406186612, -64.25178819761616],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_a17be312d1ed92de21c616486149f00e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ca71bf5873d61f4aef4ce1558c70e2e = $(`<div id="html_5ca71bf5873d61f4aef4ce1558c70e2e" style="width: 100.0%; height: 100.0%;">Factory: fabrica 44<br>robbery: 4<br>theft: 7<br>vandalism: 5<br>date: 13/07/2015</div>`)[0];
+                popup_a17be312d1ed92de21c616486149f00e.setContent(html_5ca71bf5873d61f4aef4ce1558c70e2e);
+            
+        
+
+        marker_a468ac964125fd50f9588dc26e56e1e5.bindPopup(popup_a17be312d1ed92de21c616486149f00e)
+        ;
+
+        
+    
+    
+            var marker_b164cb09c7ff4ed3f110890f9ccbf722 = L.marker(
+                [-31.432935813469058, -64.2509862025249],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_7a6d0cfe65788433e383b8384b226ab4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6d75733b2102dfbcb4f01fbb33ffe51 = $(`<div id="html_a6d75733b2102dfbcb4f01fbb33ffe51" style="width: 100.0%; height: 100.0%;">Factory: fabrica 45<br>robbery: 7<br>theft: 10<br>vandalism: 3<br>date: 08/01/2013</div>`)[0];
+                popup_7a6d0cfe65788433e383b8384b226ab4.setContent(html_a6d75733b2102dfbcb4f01fbb33ffe51);
+            
+        
+
+        marker_b164cb09c7ff4ed3f110890f9ccbf722.bindPopup(popup_7a6d0cfe65788433e383b8384b226ab4)
+        ;
+
+        
+    
+    
+            var marker_d57758f5e8ab32c1eb65fddfab23a507 = L.marker(
+                [-31.43283039733847, -64.2501330161316],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_456f8178adbd89af89e41ad83a134793 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e75026ef9c03e6e01e4cd67283edd14 = $(`<div id="html_1e75026ef9c03e6e01e4cd67283edd14" style="width: 100.0%; height: 100.0%;">Factory: fabrica 46<br>robbery: 2<br>theft: 6<br>vandalism: 8<br>date: 13/01/2019</div>`)[0];
+                popup_456f8178adbd89af89e41ad83a134793.setContent(html_1e75026ef9c03e6e01e4cd67283edd14);
+            
+        
+
+        marker_d57758f5e8ab32c1eb65fddfab23a507.bindPopup(popup_456f8178adbd89af89e41ad83a134793)
+        ;
+
+        
+    
+    
+            var marker_e2d460258d2ec2f57bc07b30fef523b8 = L.marker(
+                [-31.44095319859735, -64.2517912708041],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_7e4a4318df103efe7b2053f053bd8792 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2c24a7333262d960a8affa0abb8e975 = $(`<div id="html_b2c24a7333262d960a8affa0abb8e975" style="width: 100.0%; height: 100.0%;">Factory: fabrica 47<br>robbery: 2<br>theft: 6<br>vandalism: 6<br>date: 21/10/2019</div>`)[0];
+                popup_7e4a4318df103efe7b2053f053bd8792.setContent(html_b2c24a7333262d960a8affa0abb8e975);
+            
+        
+
+        marker_e2d460258d2ec2f57bc07b30fef523b8.bindPopup(popup_7e4a4318df103efe7b2053f053bd8792)
+        ;
+
+        
+    
+    
+            var marker_cd8cd3521af87a822f3f157e19409426 = L.marker(
+                [-31.435969041371596, -64.25164530131858],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_fa4829b9b8a817877e0d98f17def5d08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_012d983bbd114fd75d6af7b34abe8291 = $(`<div id="html_012d983bbd114fd75d6af7b34abe8291" style="width: 100.0%; height: 100.0%;">Factory: fabrica 48<br>robbery: 10<br>theft: 2<br>vandalism: 1<br>date: 24/06/2018</div>`)[0];
+                popup_fa4829b9b8a817877e0d98f17def5d08.setContent(html_012d983bbd114fd75d6af7b34abe8291);
+            
+        
+
+        marker_cd8cd3521af87a822f3f157e19409426.bindPopup(popup_fa4829b9b8a817877e0d98f17def5d08)
+        ;
+
+        
+    
+    
+            var marker_be8a27a4a4f67acb7aa5dd81f1d34ee2 = L.marker(
+                [-31.43865746310748, -64.25079776329306],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_c00275884b30adf03bf46873bcaf6391 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c33c24d09b4d6a4fdf1348d89a14233 = $(`<div id="html_3c33c24d09b4d6a4fdf1348d89a14233" style="width: 100.0%; height: 100.0%;">Factory: fabrica 49<br>robbery: 2<br>theft: 9<br>vandalism: 7<br>date: 30/08/2015</div>`)[0];
+                popup_c00275884b30adf03bf46873bcaf6391.setContent(html_3c33c24d09b4d6a4fdf1348d89a14233);
+            
+        
+
+        marker_be8a27a4a4f67acb7aa5dd81f1d34ee2.bindPopup(popup_c00275884b30adf03bf46873bcaf6391)
+        ;
+
+        
+    
+    
+            var marker_eb37bfb8fbc65fdb80b20835fe2ad655 = L.marker(
+                [-31.436326291842875, -64.25011005196096],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_ea151ca7b5e9bc3f19e8061b78ba4004 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60f4d86348bd133cb9abfdce9ff8cbcc = $(`<div id="html_60f4d86348bd133cb9abfdce9ff8cbcc" style="width: 100.0%; height: 100.0%;">Factory: fabrica 50<br>robbery: 2<br>theft: 1<br>vandalism: 7<br>date: 20/03/2019</div>`)[0];
+                popup_ea151ca7b5e9bc3f19e8061b78ba4004.setContent(html_60f4d86348bd133cb9abfdce9ff8cbcc);
+            
+        
+
+        marker_eb37bfb8fbc65fdb80b20835fe2ad655.bindPopup(popup_ea151ca7b5e9bc3f19e8061b78ba4004)
+        ;
+
+        
+    
+    
+            var marker_06472c196f2ca151afeb18c81af4adda = L.marker(
+                [-31.432954371633546, -64.25081271092914],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_f647e6f7d522351199be01df1358ba3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_846d770904818fac73ad16365cc8ac64 = $(`<div id="html_846d770904818fac73ad16365cc8ac64" style="width: 100.0%; height: 100.0%;">Factory: fabrica 51<br>robbery: 4<br>theft: 4<br>vandalism: 6<br>date: 23/12/2014</div>`)[0];
+                popup_f647e6f7d522351199be01df1358ba3a.setContent(html_846d770904818fac73ad16365cc8ac64);
+            
+        
+
+        marker_06472c196f2ca151afeb18c81af4adda.bindPopup(popup_f647e6f7d522351199be01df1358ba3a)
+        ;
+
+        
+    
+    
+            var marker_d4b45a1473672f4b5411a72bd6d561a1 = L.marker(
+                [-31.442290451965206, -64.25112313793413],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_6116ab47eca0ea679c21257a4b4189b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37fdd7c44b68e26735725bdf9c2c69cb = $(`<div id="html_37fdd7c44b68e26735725bdf9c2c69cb" style="width: 100.0%; height: 100.0%;">Factory: fabrica 52<br>robbery: 6<br>theft: 7<br>vandalism: 9<br>date: 24/12/2016</div>`)[0];
+                popup_6116ab47eca0ea679c21257a4b4189b8.setContent(html_37fdd7c44b68e26735725bdf9c2c69cb);
+            
+        
+
+        marker_d4b45a1473672f4b5411a72bd6d561a1.bindPopup(popup_6116ab47eca0ea679c21257a4b4189b8)
+        ;
+
+        
+    
+    
+            var marker_21dc56758d035b8241385f32ebb08b87 = L.marker(
+                [-31.44880168881878, -64.25021391235424],
+                {}
+            ).addTo(map_22710abf698aacf3d32962a2064c1160);
+        
+    
+        var popup_00ffcf2cfbfa9621082a4ea94b99bdc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a170816aa73523aa41a11ef2da30bd7 = $(`<div id="html_6a170816aa73523aa41a11ef2da30bd7" style="width: 100.0%; height: 100.0%;">Factory: fabrica 53<br>robbery: 6<br>theft: 3<br>vandalism: 10<br>date: 23/10/2010</div>`)[0];
+                popup_00ffcf2cfbfa9621082a4ea94b99bdc4.setContent(html_6a170816aa73523aa41a11ef2da30bd7);
+            
+        
+
+        marker_21dc56758d035b8241385f32ebb08b87.bindPopup(popup_00ffcf2cfbfa9621082a4ea94b99bdc4)
+        ;
+
+        
+    
+</script>
+</html>
